@@ -102,15 +102,66 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/*-------------------------------------------------------------------------
+   Nav bar
+ --------------------------------------------------------------------------*/
+
+/* The hero image */
+.header {
+
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url(../img/supercover.jpg);
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 75% 10em;
+  position: relative;
+  padding: 4em;
+  background-color: hsl(0, 000%, 008%);
+}
 
 
+#navbar {
+  overflow: hidden;
+  background-color: hsl(0, 000%, 36%);
+}
 
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.75em;
+}
 
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
 
+#navbar a.active {
+  background-color: hsl(230, 100%, 75%);
+  color: hsl(000, 000%, 005%);
+  font-weight: bolder;
+  font-size: 2.5em;
+}
 
+.content {
+  padding: 16px;
+}
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 
-
+.sticky + .content {
+  padding-top: 60px;
+}
 
 
 
