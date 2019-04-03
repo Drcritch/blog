@@ -25,6 +25,16 @@ body {
 }
 
 /**
+* Debugger uses hilarious !important values so as to state that under no conditions can these properties be overridden
+turns everything blue
+
+body * {
+  color:                 hsla(000, 100%, 100%, 0.88) !important;
+  background:            hsla(210, 100%,  50%, 0.33) !important;
+  outline: 0.25rem solid hsla(000, 100%, 100%, 0.50) !important;
+}
+*/
+/**
  * Render the `main` element consistently in IE.
  */
 
@@ -84,7 +94,7 @@ a {
 
 abbr[title] {
   border-bottom: none; /* 1 */
-  text-decoration: underline; /* 2 */
+  /*text-decoration: underline; /* 2 */
   text-decoration: underline dotted; /* 2 */
 }
 

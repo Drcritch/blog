@@ -3,18 +3,49 @@
 
 <head>
   <meta charset="utf-8">
-  <title> Testing 2 </title>
+  <title>Savage Dweeb</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
-
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 
+
   <meta name="theme-color" content="#fafafa">
+  <!-- first css grid: could later be converted to stylesheet reference -->
+  <style>
+    body {
+      background-color: hsl(0, 5%, 15%); /* light gray */
+    }
+    article {
+      display: grid;
+      padding: 0.5in 0;
+      height: 11in; /* temp fix */
+      grid-template-columns: 1fr 0.5in [start] 7.5in [end] 0.5in 1fr
+    }
+    @media (max-width: 8.5in) {
+      article {
+        grid-template-columns:
+          1fr 5% [start] 15% 60% 15%[end] 5% 1fr;
+        background: linear-gradient(hsl(55, 100%, 96%), white 6.83em);
+      }
+    }
+    article * { grid-column: start / end; }
+    .debug-center {
+      display:         flex;
+      justify-content: center;
+      align-items:     center;
+    }
+    h1   { font: 700 2.0rem/1.2 …; color: hsl(000, 000%, 66%); }
+    h2   { font: 400 1.5rem/1.2 …; color: hsl(000, 000%, 66%); }
+    time { font: 700 1.0rem/1.2 …; color: hsl(230, 100%, 55%); }
+    h3   { font: 700 1.0rem/1.2 …; color: hsl(250, 100%, 55%); }
+    p    { font: 400 1.0rem/1.5 …; color: hsl(000, 000%, 66%); }
+    a    { color: hsl(230, 100%, 75%); box-shadow: 0 0.25em hsl(55, 100%, 75%); }
+  </style>
 </head>
 
 <body>
@@ -23,7 +54,36 @@
   <![endif]-->
 
   <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+  <h1>Savage Dweeb</h1>
+  <!-- first html grid -->
+  <article id="the-cosmos">
+    <h1><a href="#the-cosmos">The Cosmos is all there is</a></h1>
+    <h2>Or ever was, or ever will be</h2>
+    <time datetime="04-03-2019">APR. 4, 2019</time>
+    <p>
+      <em>A generation ago</em>, the astronomer <a href="https://en.wikipedia.org/wiki/carl_sagan">Carl Sagan</a> stood here and launched hundreds of millions of us on a great adventure the exploration of the universe revealed by science. It's time to get going again. We're about to begin a journey that will take us from the infinitesimal to the infinite, from the dawn of time to the distant future. We'll explore galaxies and suns and worlds, surf the gravity waves of space-time, encounter beings that live in fire and ice, explore the planets of stars that never die, discover atoms as massive as suns and universes smaller than atoms.
+    </p>
+    <img class="size-4" src="img/test_cosmos.jpeg" alt="the Cosmos">
+    <h3>COSMOS IS ALSO A STORY ABOUT US</h3>
+    <p>It's the saga of how wandering bands of hunters and gatherers found their way to the stars, one adventure with many heroes. To make this journey, we'll need imagination. But imagination alone is not enough because the reality of nature is far more wondrous than anything we can imagine. This adventure is made possible by generations of searchers strictly adhering to a simple set of rules test ideas by experiment and observation, build on those ideas that pass the test, reject the ones that fail, follow the evidence wherever it leads and question everything. <strong>Accept these terms, and the cosmos is yours.</strong>
+    </p>
+    <!-- <img class="img.size-1, img.size-2, img.size-3, img.size-4 { width: 100%; }" src="img/test_cosmos.jpeg"> -->
+    <!-- <p class=”debug-center”>ARTICLE1</p> -->
+    <!-- rem is root em and both are multipliers. 1rem is 20px and 1em is the parent’s font-size. Had we defined our line-breaks in ems, not rems, and set h2 and p to different font-sizes, their line-breaks would differ! Therefore, consistent line-breaks use rems and inconsistent ones use ems. -->
+  </article>
+  <article id="the-dance">
+    <h1><a href="#the-dance">The final dance approaches</a></h1>
+    <h2>We are living in the age of the one-and-done.</h2>
+    <time datetime="04-03-2019">APR. 4, 2019</time>
+    <p>
+      <em>Duke and Kentucky</em>, famously stockpile <a href="https://www.sbnation.com/college-basketball/2018/3/27/17165100/mcdonalds-all-americans-game-2018-duke-zion-williamson-rj-barrett-cameron-reddish-bol-bol">McDonald’s All-Americans</a> for their glorious — if brief — college layover, something seems amiss.
+    </p>
+    <img class="size-3" src="img/ziontacko.jpg" alt="Zion_vs_Tacko">
+    <h3>It ain’t working. Not in late March, anyway.</h3>
+    <p>You may have noticed Duke and Kentucky are not at the Final Four. Neither has made it since 2015. But consider the lineups that will be in Minneapolis this weekend. Twenty starters for Auburn, Michigan State, Texas Tech and Virginia – 14 juniors and seniors, two freshmen. Two. Michigan State’s Aaron Henry and Virginia’s Kihei Clark.
+      “Everybody would like to have what Duke and Kentucky have as personnel,” Michigan State’s Tom Izzo was saying. “Both of them have had incredible years, but experience does matter, too, you know.”
+    </p>
+  </article>
   <script src="js/vendor/modernizr-3.7.1.min.js"></script>
   <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> -->
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
