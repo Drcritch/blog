@@ -16,36 +16,6 @@
 
   <meta name="theme-color" content="#fafafa">
   <!-- first css grid: could later be converted to stylesheet reference -->
-  <style>
-    body {
-      background-color: hsl(0, 0%, 8%); /* light gray */
-    }
-    article {
-      display: grid;
-      padding: 0.5in 0;
-      height: 11in; /* temp fix */
-      grid-template-columns: 1fr 0.5in [start] 7.5in [end] 0.5in 1fr
-    }
-    @media (max-width: 8.5in) {
-      article {
-        grid-template-columns:
-          1fr 5% [start] 15% 60% 15%[end] 5% 1fr;
-        background: linear-gradient(hsl(55, 100%, 96%), white 6.83em);
-      }
-    }
-    article * { grid-column: start / end; }
-    .debug-center {
-      display:         flex;
-      justify-content: center;
-      align-items:     center;
-    }
-    h1   { font: 700 2.0rem/1.2 …; color: hsl(000, 000%, 66%); }
-    h2   { font: 400 1.5rem/1.2 …; color: hsl(000, 000%, 66%); }
-    time { font: 700 1.0rem/1.2 …; color: hsl(230, 100%, 55%); }
-    h3   { font: 700 1.0rem/1.2 …; color: hsl(250, 100%, 55%); }
-    p    { font: 400 1.0rem/1.5 …; color: hsl(000, 000%, 66%); }
-    a    { color: hsl(230, 100%, 75%); box-shadow: 0 0.25em hsl(55, 100%, 75%); }
-  </style>
 </head>
 
 <body>
@@ -55,12 +25,39 @@
 </div>
 
 <div id="navbar">
-  <a class="active" href="http://localhost:63342/blog/index.html?_ijt=lnn68el8rse6l0i8oo9ku7rfv8">Savage Dweeb</a>
-  <a href="http://localhost:63342/blog/404.html?_ijt=2ihmbt1nt3hv8ilvk5qpobf54l" style="float:right">Error</a>
-  <a href="#the-dance" style="float:right">The Dance</a>
-  <a href="#the-cosmos" style="float:right">The Cosmos</a>
-  <a href="#gathering-storm" style="float:right">Time Travel</a>
+  <ul>
+    <li><a class="active" href="http://localhost:63342/blog/index.html?_ijt=lnn68el8rse6l0i8oo9ku7rfv8">Savage Dweeb</a></li>
+    <li style="float:right"><a href="http://localhost:63342/blog/404.html?_ijt=2ihmbt1nt3hv8ilvk5qpobf54l">Search</a></li>
+    <li style="float:right"><a href="http://localhost:63342/blog/404.html?_ijt=2ihmbt1nt3hv8ilvk5qpobf54l">Tools</a></li>
+    <li style="float:right"><a href="http://localhost:63342/blog/404.html?_ijt=2ihmbt1nt3hv8ilvk5qpobf54l">Subscribe</a></li>
+    <li style="float:right" class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">The Gainz</a>
+      <div class="dropdown-content">
+        <a href="#gathering-storm">Time Travel</a>
+        <a href="#the-cosmos">The Cosmos</a>
+        <a href="#the-dance">The Dance</a>
+      </div>
+    </li>
+  </ul>
 </div>
+<!--
+<div id="navbar">
+  <a class="active" href="http://localhost:63342/blog/index.html?_ijt=lnn68el8rse6l0i8oo9ku7rfv8">Savage Dweeb</a>
+  <a href="http://localhost:63342/blog/404.html?_ijt=2ihmbt1nt3hv8ilvk5qpobf54l" style="float:right">Search</a>
+  <a href="http://localhost:63342/blog/404.html?_ijt=2ihmbt1nt3hv8ilvk5qpobf54l" style="float:right">Tools</a>
+  <a href="http://localhost:63342/blog/404.html?_ijt=2ihmbt1nt3hv8ilvk5qpobf54l" style="float:right">Subscribe</a>
+  <ul>
+    <li class="dropdown" style="float:right">
+      <a href="javascript:void(0)" class="dropbtn">Gainz ▼</a>
+      <div class="dropdown-content">
+        <a href="#gathering-storm">Time Travel</a>
+        <a href="#the-cosmos">The Cosmos</a>
+        <a href="#the-dance">The Dance</a>
+      </div>
+    </li>
+  </ul>
+</div>
+-->
 <!--
   <div class="navbar">
     <a class="active" href="#home">Savage Dweeb</a>
@@ -80,8 +77,8 @@
 
   <div class = "content">
     <article id="gathering-storm">
-      <h1><a href="#gathering-storm">Gathering Storm</a></h1>
-      <h2>Civilization VI newest addition</h2>
+      <h1><a href="#gathering-storm">Time Travel</a></h1>
+      <h2>Gathering Storm: Civilization VI newest addition</h2>
       <time datetime="04-05-2019">APR. 5, 2019</time>
       <p>
         <em>Sid Meier</em> and team, continue to improve upon the world's first time machine. It's not quite the product that sci-fi writers have been dreaming up for decades, but it is a damn good first step. It remains one of the first times in human history where you can take a modern PC and convert its power to for time travel. Upon starting up the software you can jump back in time as far back as the ancient era to rediscover the wonders of our ancestors while simultaneously traveling hours or, more dangerously, days into the future of our modern <a href="https://en.wikipedia.org/wiki/Gregorian_calendar">Gregorian</a>a> timeline.
