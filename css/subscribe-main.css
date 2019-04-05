@@ -1,0 +1,96 @@
+* {box-sizing: border-box}
+
+
+html, body, p {
+  font-family: "Open Sans", fantasy;
+
+}
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=text] {
+  background-color: hsl(000, 000%, 85%);
+  align-self: center;
+  color: black;
+  padding: 1em;
+  border: whitesmoke;
+  cursor: pointer;
+  height: 2em;
+  width: 25%;
+  opacity: 0.9;
+  font-weight: bold;
+  vertical-align: baseline;
+  font-family: "Open Sans", fantasy;
+}
+
+input[type=text]:focus {
+  background-color: hsl(0, 000%, 95%);
+  font-weight: bold;
+  outline: none;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: hsl(230, 100%, 75%);
+  align-self: center;
+  color: white;
+  padding: 1em;
+  border: none;
+  cursor: pointer;
+  width: 25%;
+  height: 3em;
+  opacity: 0.9;
+  font-weight: bold;
+  vertical-align: baseline;
+  margin-top: .5em;
+  border: hsl(230, 100%, 90%);
+  transition: all 0.5s;
+  font-family: "Open Sans", fantasy;
+}
+
+.registerbtn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.registerbtn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.registerbtn:hover span {
+  padding-right: 25px;
+}
+
+.registerbtn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.subscribe-form {
+  display: grid;
+  grid-row-gap: .5%;
+  grid-column-gap: 10px;
+  padding: 10px;
+}
+
+.subscribe-form > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+   text-align: center;
+}
+
