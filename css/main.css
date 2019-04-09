@@ -137,14 +137,14 @@ a    { color: hsl(230, 100%, 75%); box-shadow: 0 0.25em hsl(55, 100%, 75%); }
 .header {
 
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url(../img/supercover.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url(../img/dummysolar.jpg); /*change to Savage Dweeb header image eventually, was on superheroes*/
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 75% 50em;
+  background-size: 75% 20em;
   position: relative;
-  padding: 25em;
+  padding: 15em;
   background-color: hsl(0, 000%, 008%);
 }
 
@@ -253,8 +253,8 @@ a    { color: hsl(230, 100%, 75%); box-shadow: 0 0.25em hsl(55, 100%, 75%); }
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: red; /* Set a background color */
-  color: white; /* Text color */
+  background-color: hsl(55, 100%, 75%); /* Set a background color */
+  color: hsl(230, 100%, 75%); /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
   border-radius: 10px; /* Rounded corners */
