@@ -137,21 +137,36 @@ a    { color: hsl(230, 100%, 75%); box-shadow: 0 0.25em hsl(55, 100%, 75%); }
 header .header {
 
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url(../img/dummysolar.jpg); /*change to Savage Dweeb header image eventually, was on superheroes*/
+  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url(../img/santa1.jpeg); /*change to Savage Dweeb header image eventually, was on superheroes*/
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 75% 20em;
+  background-size: auto;
+  /* background-size: 75% 20em;*/
   position: relative;
   padding: 15em;
   background-color: hsl(0, 000%, 008%);
 }
 
-/* For width 400px and larger: */
-@media only screen and (min-width: 800px) {
+/* For width 1000px and smaller: */
+@media only screen and (max-width: 1500px) {
   header .header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url(../img/supercover.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url(../img/santa2.jpg);
+  }
+}
+
+/* For width 800px and smaller: */
+@media only screen and (max-width: 1000px) {
+  header .header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url(../img/santa1.jpeg);
+  }
+}
+
+/* For width 600px and smaller: */
+@media only screen and (max-width: 500px) {
+  header .header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url(../img/santa2.jpg);
   }
 }
 
