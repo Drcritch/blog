@@ -1,14 +1,32 @@
 .grid-toolbox {
   display: grid;
-  grid-template-columns: 40% 40%;
-  grid-gap: 10%;
+  grid-template-columns: 45% 45%;
+  grid-gap: 2.5%;
   background-color: hsl(0, 000%, 035%);
-  padding: 10px;
+  padding-bottom: 25em
 }
 
-.grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
+    .grid-tool {
+  box-sizing: content-box;
+  position: relative;
+      margin-left: 15%;
+  background: rgba(255, 255, 255, 0.5);
+  color: #000;
+  border-radius: 4px;
+  overflow: hidden;
+  opacity: 1;
+  line-height: 1.6em;
+  font-weight: 400;
+  transition: all .3s ease-in-out;
+  box-shadow: 0 1px 2px 0 #ccc;
+  -webkit-box-shadow: 0 1px 2px 0 #ccc;
+  -moz-box-shadow: 0 1px 2px 0 #ccc;
+  -webkit-appearance: none;
+}
+
+h2 {
+  font-size: 3em;
+  font-weight: bold;
+  color: hsl(0, 000%, 085%);;
+  text-shadow: 1px 1px hsl(230, 100%, 75%);
 }
