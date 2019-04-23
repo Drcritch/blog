@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28fdf873-79ca-4c77-a4a3-e1fb9cce0d56" name="Default Changelist" comment="">
+    <list default="true" id="28fdf873-79ca-4c77-a4a3-e1fb9cce0d56" name="Default Changelist" comment="Added a couple Tools ideas as headers, added a league article.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/tools-main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/tools-main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/subscribe.html" beforeDir="false" afterPath="$PROJECT_DIR$/subscribe.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tools.html" beforeDir="false" afterPath="$PROJECT_DIR$/tools.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -28,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="38" column="19" lean-forward="true" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+            <state relative-caret-position="161">
+              <caret line="78" column="21" lean-forward="true" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="21" />
               <folding>
                 <element signature="n#style#0;n#li#1;n#ul#0;n#div#1;n#header#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#2;n#ul#0;n#div#1;n#header#0;n#html#0;n#!!top" expanded="true" />
@@ -41,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tools.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2783">
-              <caret line="139" column="92" lean-forward="true" selection-start-line="139" selection-start-column="92" selection-end-line="139" selection-end-column="92" />
+            <state relative-caret-position="1558">
+              <caret line="134" column="10" lean-forward="true" selection-start-line="134" selection-start-column="10" selection-end-line="134" selection-end-column="10" />
               <folding>
                 <element signature="n#style#0;n#li#1;n#ul#0;n#div#1;n#header#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#3;n#ul#0;n#div#1;n#header#0;n#html#0;n#!!top" expanded="true" />
@@ -57,8 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/tools-main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+            <state relative-caret-position="362">
+              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -80,7 +79,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
+            <state relative-caret-position="713">
               <caret line="130" column="74" lean-forward="true" selection-start-line="130" selection-start-column="56" selection-end-line="130" selection-end-column="74" />
             </state>
           </provider>
@@ -126,6 +125,7 @@
       <find>style</find>
       <find>sele</find>
       <find>selection</find>
+      <find>img</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -150,18 +150,18 @@
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/css/subscribe-main.css" />
         <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/tools.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/subscribe.html" />
         <option value="$PROJECT_DIR$/css/tools-main.css" />
+        <option value="$PROJECT_DIR$/tools.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="156" />
-    <option name="y" value="51" />
-    <option name="width" value="585" />
-    <option name="height" value="314" />
+    <option name="x" value="-7" />
+    <option name="y" value="-7" />
+    <option name="width" value="1550" />
+    <option name="height" value="838" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -212,7 +212,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.tools.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="404.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/blog/404.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -230,9 +230,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.tools.html" />
         <item itemvalue="JavaScript Debug.subscribe.html" />
-        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.404.html" />
         <item itemvalue="Node.js.main.js" />
       </list>
@@ -372,11 +372,25 @@
       <option name="project" value="LOCAL" />
       <updated>1555508776568</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Re ordered columns in tools page">
+      <created>1555516548013</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1555516548013</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Added two tools to the two page">
+      <created>1555941398278</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1555941398278</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98146000" />
+    <option name="totallyTimeSpent" value="105670000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -388,7 +402,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.16790123" />
@@ -402,10 +416,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32954547" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49925926" visible="true" weight="0.20454545" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49925926" weight="0.22073579" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32954547" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50074077" side_tool="true" weight="0.20454545" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32941177" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.32887402" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -489,7 +503,10 @@
     <MESSAGE value="Fixed search bar again" />
     <MESSAGE value="Borrowing listen money matter set up for toolbox needs a lot fo revisions." />
     <MESSAGE value="Switched back to santa because dweeb takes too long to load. Helped configured tools page still using fae stuff though." />
-    <option name="LAST_COMMIT_MESSAGE" value="Switched back to santa because dweeb takes too long to load. Helped configured tools page still using fae stuff though." />
+    <MESSAGE value="Re ordered columns in tools page" />
+    <MESSAGE value="Added two tools to the two page" />
+    <MESSAGE value="Added a couple Tools ideas as headers, added a league article." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a couple Tools ideas as headers, added a league article." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/humans.txt">
@@ -524,17 +541,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="38" column="19" lean-forward="true" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
-          <folding>
-            <element signature="n#style#0;n#li#1;n#ul#0;n#div#1;n#header#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#2;n#ul#0;n#div#1;n#header#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/subscribe-main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
@@ -542,11 +548,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
+    <entry file="file://$USER_HOME$/Documents/A11Y Testing/a11ychecker/plugin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="130" column="74" lean-forward="true" selection-start-line="130" selection-start-column="56" selection-end-line="130" selection-end-column="74" />
-        </state>
+        <state relative-caret-position="-1387" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/subscribe.html">
@@ -561,20 +565,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="130" column="74" lean-forward="true" selection-start-line="130" selection-start-column="56" selection-end-line="130" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/tools-main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        <state relative-caret-position="362">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tools.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2783">
-          <caret line="139" column="92" lean-forward="true" selection-start-line="139" selection-start-column="92" selection-end-line="139" selection-end-column="92" />
+        <state relative-caret-position="1558">
+          <caret line="134" column="10" lean-forward="true" selection-start-line="134" selection-start-column="10" selection-end-line="134" selection-end-column="10" />
           <folding>
             <element signature="n#style#0;n#li#1;n#ul#0;n#div#1;n#header#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#3;n#ul#0;n#div#1;n#header#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="78" column="21" lean-forward="true" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#li#1;n#ul#0;n#div#1;n#header#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#2;n#ul#0;n#div#1;n#header#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -22,6 +22,7 @@
   -webkit-box-shadow: 0 1px 2px 0 #ccc;
   -moz-box-shadow: 0 1px 2px 0 #ccc;
   -webkit-appearance: none;
+
 }
 
 h2 {
@@ -30,3 +31,4 @@ h2 {
   color: hsl(0, 000%, 085%);;
   text-shadow: 1px 1px hsl(230, 100%, 75%);
 }
+
